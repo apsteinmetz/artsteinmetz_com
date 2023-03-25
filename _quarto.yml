@@ -1,0 +1,42 @@
+project:
+  type: website
+  resources:
+    - html
+
+website:
+  title: "Art Steinmetz"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: https://outsiderdata.blog
+        text: Data Science Blog
+      - href: blog.qmd
+        text: Old Personal Blog
+    right:
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/asteinmetz/"
+      - icon: twitter
+        href: "https://twitter.com/@apsteinmetz"
+      - icon: mastodon
+        href: "https://fosstodon.org/@adababbage"
+      - icon: github
+        href: "https://github.com/apsteinmetz"
+      - icon: envelope
+        url: "mailto:apsteinmetz@yahoo.com"
+  page-footer:
+    left: "© 2023 by Art Steinmetz.  Yes, I made this website all by myself using [RStudio](https://posit.co/) and [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+execute:
+  echo: false
+  freeze: true
+
+
+

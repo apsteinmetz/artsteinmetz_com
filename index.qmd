@@ -1,0 +1,220 @@
+---
+title: "Art Steinmetz"
+format:
+  html:
+    page-layout: full
+about:
+  id: header
+  template: trestles
+  image: "img/headshot.jpg"
+  image-width: "250px"
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/asteinmetz/"
+    - text: Twitter
+      icon: twitter
+      url: "https://twitter.com/@apsteinmetz"
+    - text: Email
+      icon: envelope
+      url: "mailto:apsteinmetz@yahoo.com"
+---
+
+::: {header}
+Hello and Welcome!
+:::
+
+::: panel-tabset
+# Current Work
+
+Currently, I am a private investor located in New York City and an angel investor in several startups including:
+
+-   [Tifin](Tifin.com) AI for wealth management.
+-   [Market Reader](marketreader.com) Understand markets in real time.
+-   [Stronghold](stronghold.co) Payment and financial infrastructure for all.
+-   [Launchpoint](https://launchpointeps.com/) Advanced air mobility.
+
+Additionally, I serve on the board of ScotiaBank (U.S.) and do consulting for an enterprise data science firm, Posit PBC. I occasionally publish recreational data science projects at [outsiderdata.blog](https://outsiderdata.blog). I am a member of the Economic Club of New York.
+
+# Earlier Work
+
+I am the former Chairman, CEO and President of OppenheimerFunds. After joining the firm in 1986, I served as an analyst, portfolio manager and Chief Investment Officer. I was named President in 2013, CEO in 2014, and, in 2015, Chairman of the firm with \$250 billion under management. I stepped down when the firm was sold to Invesco.
+
+::: column-margin
+![](img/oppenheimerfunds-logo.png){width="210"}
+:::
+
+I spent most of my career as a global macro fixed-income investor at OppenheimerFunds, creating several mutual funds that grew to over US\$20bn in assets. These included the multi-sector "Strategic Income Fund" and the "International Bond Fund." At various times I headed the Government, High-Yield and International Bond teams. I was nominated for Morningstar's Fixed Income Manager of the Year in 2007. As CIO and CEO, I led the effort to acquire several companies to expand into energy and "smart beta" spaces.
+
+# Philanthropy
+
+I am passionate about advancing financial and mathematical literacy, which are essential elements of the next generation's success.
+
+I serve on the board of ["Rock the Street, Wall Street"](https://rockthestreetwallstreet.com/) which brings financial literacy programs into high school classrooms, mostly in under-resourced communities, to encourage girls to become interested in finance. We need more diversity in finance.
+
+::: column-margin
+![](img/rtsws.png){width="210"}
+:::
+
+I am a trustee of my Alma Mater, Denison University. Quite coincidentally, my interest in data science has grown along with Denison's. The college already had strong computer science and applied mathematics programs. A few years ago they launched a Data Analytics major and it has been one of fastest growing disciplines in the school's history. Data science skills in a liberal arts context give kids a powerful tool set that set them up well for career success. [Check it out](https://denison.edu/academics/data-analytics)!
+
+::: column-margin
+![](img/denison.png){width="210"}
+:::
+
+I am a supporter and the former board chair of the National Museum of Mathematics, [MoMath.org](https://momath.org) Visit the museum when you are in NYC. We are making math cool!
+
+::: column-margin
+![](img/momath.png){width="210"}
+:::
+
+Finally, I support [WFMU](https://wfmu.org/). Freeform, listener-supported, radio. Want to support the station, too?
+
+<iframe src="https://pledge.wfmu.org/pledge-widget?program=CM&amp;r=http%3A%2F%2Fwfmu.org%2Fplaylists%2Fshows%2F125865" frameborder="0">
+
+</iframe>
+
+I am grateful to have received a couple honoraria. In 2015, I was named "Man of the Year" by The [YWCA of New York City](https://ywcanyc.org/) and, in 2017, was honored to receive the "Corporate Trailblazer" award by [Black Women of Influence](https://blackwomenofinfluence.com/) for my efforts in promoting STEM education among girls and minorities. I should note I consider myself fairly conservative. I prefer market-oriented solutions to social problems, not government diktats. That said, structural racism is real and only by recognizing it can we work to eliminate it.
+
+# Education
+
+I hold an M.B.A. in finance from Columbia Business School and a B.A. in Russian language and Slavic Studies from Denison University.
+
+# Media
+
+Art is one of America's least quoted pundits on financial markets. He is a frequent guest speaker at the local middle school career day and hopes to be invited to speak on matters of import by the local Kiwanis, Rotary or Odd Fellows chapter soon. Judging the by accuracy of his prognostications below, that isn't likely.
+
+## National Museum of Mathematics Gala: Numeracy Matters
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hKlrRaBKkI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+[Bloomberg Markets Magazine](https://www.bloomberg.com/news/articles/2018-10-24/quants-play-elliptical-golf-toast-ex-raven-urschel-at-math-gala?utm_source=website&utm_medium=share&utm_campaign=copy)
+
+<strong>07/30/2018</strong>
+
+## Art's Last Great Idea
+
+[![](/img/nyse_appearance.jpg){width="560"}](https://www.facebook.com/NYSE/videos/art-steinmetz-chairman-and-ceo-of-oppenheimerfunds-joins-us-on-the-trading-floor/10154475965976023/)
+
+<strong>03/8/2018</strong>
+
+## Art's Alma Mater Flatters A New Donor
+
+[![](%5Cimg%5Cdenison_class_notes.jpg)](/html/denison_profile.html) [Denison Profile](/html/denison_profile.html)
+
+[Denison Alumni Magazine](https://denison.edu/magazine/winter-2018/139966)
+
+<strong>4/17/2017</strong>
+
+## Art Gets Grilled About Puerto Rico
+
+<iframe width="560" height="315" src="https://www.bloomberg.com/media-manifest/embed/iframe?id=35a5b831-fdee-4f1b-b8da-200429fbd1d6" allowscriptaccess="never" frameborder="0">
+
+</iframe>
+
+<strong>11/10/2016</strong>
+
+## New York Times Dealbook Conference
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r9q5BIXpNUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<strong>01/17/2017</strong>
+
+## American Museum of Finance Education Series
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ml_6esaMVYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<strong></strong>4/30/13</strong>
+
+## Interview with NBR at the Milken Conference
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SvuqZx10jhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<strong>10/20/2008</strong>
+
+## Art talks with Erin Burnett about emerging market debt on CNBC's "Street Signs"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1TeIygTRaig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<strong>1/8/2008</strong>
+
+## Smart Money Magazine Proves A Contrary Indicator
+
+[![](/img/smart_money_cover.jpg){width="240" fig-align="left"}](img/smart_money.pdf)
+
+[The Only Bond Fund You'll Ever Need?](/img/smart_money.pdf)
+
+<strong>1/8/2008</strong>
+
+## Wall Street Journal Profile
+
+[![](/img/2008/11/image002.gif){fig-align="left" width="240"}](img/2008-11-29_Would_You_Trust_Your_Money_To_This_Guy.pdf)
+
+[Secrets from the Brewer/Bond Manager](img/2008-11-29_Would_You_Trust_Your_Money_To_This_Guy.pdf)
+
+<strong>11/15/2007</strong>
+
+## Art Discusses Currencies On Bloomberg Asia TV
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qW_eeL7WKxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<strong>11/1/2007</strong>
+
+## Art on CNBC's "Closing Bell" with Maria Bartiromo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XU6C5oz4MCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<strong>9/10/2007</strong>
+
+## Art Appears On CNBC's "Power Lunch" To Talk About European Credit Spreads
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DbHbQhk5qVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<strong>8/1/2007</strong>
+
+## Art Talks Like a "Bull Market Genius"
+
+![](img/bloomberg_markets_cover.jpg){width="240"}
+
+[Bloomberg Markets](\img\bloomberg_markets_2007-August.pdf)
+
+<strong>7/5/2007</strong>
+
+## Art and Jack Malvey Share Thoughts On Rates and Currency On CNBC
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GODfF69dHJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<strong>5/17/2006</strong>
+
+## Steinmetz Talks Emerging Market Debt On CNBC
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fG5yHk4-k-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+<strong>9/8/1995</strong>
+
+## USA Today: More Famous for Beer Than Bonds
+
+[![](img/steinmetz_ale_label.jpg){fig-align="left" width="240"}](img/usa_today_1995-09-08.pdf)
+
+[How Good Bond Funds Sound: Zzzzzz](img/usa_today_1995-09-08.pdf)
+:::

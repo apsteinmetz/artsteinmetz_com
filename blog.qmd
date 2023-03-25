@@ -1,0 +1,14 @@
+---
+title: "Ancient History"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+I briefly did a personal blog starting in 2008 just to see what all the cool kids were doing. It is of scant interest today, but I'm a hoarder.
