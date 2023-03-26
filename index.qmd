@@ -36,6 +36,8 @@ Currently, I am a private investor located in New York City and an angel investo
 
 Additionally, I serve on the board of ScotiaBank (U.S.) and do consulting for an enterprise data science firm, Posit PBC. I occasionally publish recreational data science projects at [outsiderdata.blog](https://outsiderdata.blog). I am a member of the Economic Club of New York.
 
+I only consider investment introductions from my established network.  Unsolicited inquiries will be politely ignored.
+
 # Earlier Work
 
 I am the former Chairman, CEO and President of OppenheimerFunds. After joining the firm in 1986, I served as an analyst, portfolio manager and Chief Investment Officer. I was named President in 2013, CEO in 2014, and, in 2015, Chairman of the firm with \$250 billion under management. I stepped down when the firm was sold to Invesco.
@@ -102,7 +104,9 @@ Art is one of America's least quoted pundits on financial markets. He is a frequ
 
 ## Art's Alma Mater Flatters A New Donor
 
-[![](%5Cimg%5Cdenison_class_notes.jpg)](/html/denison_profile.html) [Denison Profile](/html/denison_profile.html)
+[![](/img/denison_class_notes.jpg)](/html/denison_profile.html)
+
+[Class Notes](html/denison_profile.html)
 
 [Denison Alumni Magazine](https://denison.edu/magazine/winter-2018/139966)
 

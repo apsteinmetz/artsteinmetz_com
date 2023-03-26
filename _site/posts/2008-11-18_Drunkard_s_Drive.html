@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.475">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -82,40 +82,43 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">Home</a>
+    <a class="nav-link" href="../index.html">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://outsiderdata.blog">Data Science Blog</a>
+    <a class="nav-link" href="https://outsiderdata.blog">
+ <span class="menu-text">Data Science Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html">Old Personal Blog</a>
+    <a class="nav-link" href="../blog.html">
+ <span class="menu-text">Old Personal Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/asteinmetz/"><i class="bi bi-linkedin" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/@apsteinmetz"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://fosstodon.org/@adababbage"><i class="bi bi-mastodon" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/apsteinmetz"><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="mailto:apsteinmetz@yahoo.com"><i class="bi bi-envelope" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -155,6 +158,7 @@ ul.task-list li input[type="checkbox"] {
       <p class="date">November 18, 2008</p>
     </div>
   </div>
+  
     
   </div>
   
@@ -162,12 +166,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>“Drunkard’s walk” is the metaphor used in Statistics to describe a random path or it could refer to a drunk guy walking around. It could also refer to the Google Street View car. For the uninformed, these are the cars that Google employs to drive around with GPS units and cameras mounted on top taking pictures up and down streets. These images integrate with Google Maps to give you a street level view of any address you care to see.</p>
-<p>Anyway, Street View makes the most sense in dense urban areas so I was shocked to see our house in semi-rural NJ show up. Why would Google use resources to cover our area?&nbsp; Well, they probably didn’t plan to.&nbsp; This map shows the Street View coverage in blue. It mostly makes sense. The covered areas show methodical mapping of every street as you get close to NYC. Then there was the day the driver got lost. <img src="../img/2008/11/street-view-weirdness.jpg" class="img-fluid" style="width:100.0%" alt="Street View Weirdness"></p>
+<p>Anyway, Street View makes the most sense in dense urban areas so I was shocked to see our house in semi-rural NJ show up. Why would Google use resources to cover our area?&nbsp; Well, they probably didn’t plan to.&nbsp; This map shows the Street View coverage in blue. It mostly makes sense. The covered areas show methodical mapping of every street as you get close to NYC. Then there was the day the driver got lost. <img src="..\img/2008/11/street-view-weirdness.jpg" class="img-fluid" style="width:100.0%" alt="Street View Weirdness"></p>
 <p>Yeah, the guy with loads of GPS technology on board goes off the map into unexplored territory. Check out the ramble around Gladstone. He doesn’t go down the side streets in any regular way but he does go on some dirt roads! Quite a joy ride. He briefly goes on the highway again but gets wanderlust a couple exits later. So that’s how our house winds up on Street View. I won’t make it easy for the kidnappers by posting the link here but you know where to find it if you want.</p>
 <p>There has been lots of commentary about the social ramifications of this technology. When you deploy dozens of vehicles randomly taking millions of pictures some interesting stuff is bound to show up.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://streetviewfun.com"><img src="../img/girl-just-wanna-have-fun-550x337.jpg" class="img-fluid figure-img" width="381"></a></p>
+<p><a href="https://streetviewfun.com"><img src="..\img/girl-just-wanna-have-fun-550x337.jpg" class="img-fluid figure-img" width="381"></a></p>
 </figure>
 </div>
 <p align="center">
@@ -220,7 +224,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -256,24 +277,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
