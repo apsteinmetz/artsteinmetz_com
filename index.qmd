@@ -52,11 +52,11 @@ I spent most of my career as a global macro fixed-income investor at Oppenheimer
 
 I am passionate about advancing financial and mathematical literacy, which are essential elements of the next generation's success.
 
-I serve on the board of ["Rock the Street, Wall Street"](https://rockthestreetwallstreet.com/) which brings financial literacy programs into high school classrooms, mostly in under-resourced communities, to encourage girls to become interested in finance. We need more diversity in finance.
-
 ::: column-margin
 ![](img/rtsws.png){width="210"}
 :::
+I serve on the board of ["Rock the Street, Wall Street"](https://rockthestreetwallstreet.com/) which brings financial literacy programs into high school classrooms, mostly in under-resourced communities, to encourage girls to become interested in finance. We need more diversity in finance.
+
 
 I am a trustee of my Alma Mater, Denison University. Quite coincidentally, my interest in data science has grown along with Denison's. The college already had strong computer science and applied mathematics programs. A few years ago they launched a Data Analytics major and it has been one of fastest growing disciplines in the school's history. Data science skills in a liberal arts context give kids a powerful tool set that set them up well for career success. [Check it out](https://denison.edu/academics/data-analytics)!
 
@@ -133,6 +133,14 @@ Art is one of America's least quoted pundits on financial markets. He is a frequ
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ml_6esaMVYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
+
+<strong>10/20/2014</strong>
+
+## Revenge of the Nerds
+
+[![](/img/glen_and_art.jpg){width="480" fig-align="left"}](/img/momath_gala_2014.pdf)
+
+[The Geekiest Event of the Season](/img/momath_gala_2014.pdf)
 
 <strong></strong>4/30/13</strong>
 
