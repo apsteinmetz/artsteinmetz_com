@@ -4,6 +4,7 @@ project:
     - html
 
 website:
+  google-analytics: "G-9FBMX3C79E"
   title: "Art Steinmetz"
   navbar:
     left:
