@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -57,7 +57,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -89,7 +90,17 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9FBMX3C79E"></script>
 
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9FBMX3C79E', { 'anonymize_ip': true});
+</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
@@ -106,52 +117,50 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Art Steinmetz</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://outsiderdata.blog">
+    <a class="nav-link" href="https://outsiderdata.blog" rel="" target="">
  <span class="menu-text">Data Science Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page">
- <span class="menu-text">Old Personal Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/asteinmetz/"><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/asteinmetz/" rel="" target=""><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/@apsteinmetz"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/@apsteinmetz" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://fosstodon.org/@adababbage"><i class="bi bi-mastodon" role="img">
+    <a class="nav-link" href="https://fosstodon.org/@adababbage" rel="" target=""><i class="bi bi-mastodon" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/apsteinmetz"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/apsteinmetz" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:apsteinmetz@yahoo.com"><i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="mailto:apsteinmetz@yahoo.com" rel="" target=""><i class="bi bi-envelope" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -192,9 +201,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1289278800000" data-listing-file-modified-sort="1682184108235" data-listing-reading-time-sort="0.4">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1289278800000" data-listing-file-modified-sort="1682184108235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2010-09-06_Oktoberfest_2010.html"> <img src="./img/2010/eighties.JPG" class="thumnail-image"> </a></p>
+<p><a href="./posts/2010-09-06_Oktoberfest_2010.html"> <p class="card-img-top"><img src="img\2010\eighties.JPG"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2010-09-06_Oktoberfest_2010.html">
@@ -220,9 +229,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1252468800000" data-listing-file-modified-sort="1682184108235" data-listing-reading-time-sort="0.445">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1252468800000" data-listing-file-modified-sort="1682184108235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2009-10-06_Oktoberfest_2009.html"> <img src="./img/2009/bollywood.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2009-10-06_Oktoberfest_2009.html"> <p class="card-img-top"><img src="img\2009\bollywood.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2009-10-06_Oktoberfest_2009.html">
@@ -248,9 +257,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1231218000000" data-listing-file-modified-sort="1682184108234" data-listing-reading-time-sort="1.83">
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1231218000000" data-listing-file-modified-sort="1682184108234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2009-01-06_Merry_Christmas.html"> <img src="./img/2008/12/xmas-card-jpeg-1024x768.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2009-01-06_Merry_Christmas.html"> <p class="card-img-top"><img src="img\2008\12\xmas-card-jpeg-1024x768.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2009-01-06_Merry_Christmas.html">
@@ -276,9 +285,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1231131600000" data-listing-file-modified-sort="1682184108234" data-listing-reading-time-sort="5.195">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1231131600000" data-listing-file-modified-sort="1682184108234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <div class="thumbnail">
-<p><a href="./posts/2009-01-05_Holiday_Trigonometry.html"> <img src="./img/2009/01/CIMG6736.JPG" class="thumnail-image"> </a></p>
+<p><a href="./posts/2009-01-05_Holiday_Trigonometry.html"> <p class="card-img-top"><img src="img\2009\01\CIMG6736.JPG"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2009-01-05_Holiday_Trigonometry.html">
@@ -304,9 +313,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1230958800000" data-listing-file-modified-sort="1682184108233" data-listing-reading-time-sort="0.035">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1230958800000" data-listing-file-modified-sort="1682184108233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2009-01-03_He_s_Up.html"> <img src="./img/2009/01/CIMG6404.JPG" class="thumnail-image"> </a></p>
+<p><a href="./posts/2009-01-03_He_s_Up.html"> <p class="card-img-top"><img src="img\2009\01\CIMG6404.JPG"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2009-01-03_He_s_Up.html">
@@ -332,9 +341,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1229144400000" data-listing-file-modified-sort="1682184108233" data-listing-reading-time-sort="3.89">
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1229144400000" data-listing-file-modified-sort="1682184108233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html"> <img src="./img/2008/12/chocolate_pot.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html"> <p class="card-img-top"><img src="img\2008\12\chocolate_pot.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html">
@@ -360,9 +369,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1226984400000" data-listing-file-modified-sort="1682184108233" data-listing-reading-time-sort="1.74">
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1226984400000" data-listing-file-modified-sort="1682184108233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2008-11-18_Drunkard_s_Drive.html"> <img src="./img/2008/11/street-view-weirdness.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2008-11-18_Drunkard_s_Drive.html"> <p class="card-img-top"><img src="img\2008\11\street-view-weirdness.jpg" alt="Street View Weirdness"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2008-11-18_Drunkard_s_Drive.html">
@@ -388,9 +397,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1226898000000" data-listing-file-modified-sort="1682184108232" data-listing-reading-time-sort="0.815">
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1226898000000" data-listing-file-modified-sort="1682184108232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2008-11-17_Twice_Flat_Broke.html"> <img src="./img/2008/11/cheer-up.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2008-11-17_Twice_Flat_Broke.html"> <p class="card-img-top"><img src="img\2008\11\cheer-up.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2008-11-17_Twice_Flat_Broke.html">
@@ -416,9 +425,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1226379600000" data-listing-file-modified-sort="1682184108232" data-listing-reading-time-sort="6.39">
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1226379600000" data-listing-file-modified-sort="1682184108232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <div class="thumbnail">
-<p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html"> <img src="./img/2008/11/white-slavery-2.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html"> <p class="card-img-top"><img src="img\2008\11\white-slavery-2.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html">
@@ -444,9 +453,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1225425600000" data-listing-file-modified-sort="1682184108231" data-listing-reading-time-sort="1.99">
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1225425600000" data-listing-file-modified-sort="1682184108231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html"> <img src="./img/2008/10/spx-oct-08.bmp" class="thumnail-image"> </a></p>
+<p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html"> <p class="card-img-top"><img src="img\2008\10\spx-oct-08.bmp"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html">
@@ -472,9 +481,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1224734400000" data-listing-file-modified-sort="1682184108231" data-listing-reading-time-sort="1.91">
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1224734400000" data-listing-file-modified-sort="1682184108231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html"> <img src="./img/2008/10/chinese-wisdom-2.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html"> <p class="card-img-top"><img src="img\2008\10\chinese-wisdom-2.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html">
@@ -500,9 +509,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1224561600000" data-listing-file-modified-sort="1682184108231" data-listing-reading-time-sort="0.64">
+<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1224561600000" data-listing-file-modified-sort="1682184108231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./posts/2008-10-21_Oktoberfest_2008.html"> <img src="./img/2008/10/carrie-dirndle-200x300.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2008-10-21_Oktoberfest_2008.html"> <p class="card-img-top"><img src="img\2008\10\carrie-dirndle-200x300.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2008-10-21_Oktoberfest_2008.html">
@@ -528,9 +537,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1223956800000" data-listing-file-modified-sort="1682184108230" data-listing-reading-time-sort="3.455">
+<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1223956800000" data-listing-file-modified-sort="1682184108230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html"> <img src="./img/2008/10/chartlies1.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html"> <p class="card-img-top"><img src="http://upload.wikimedia.org/wikipedia/commons/e/e1/Crowd_outside_nyse.jpg" alt="Crowd Outside the NYSE after 1929 Crash" title="Crowd_outside_nyse" class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html">
@@ -556,9 +565,9 @@ Art Steinmetz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1089864000000" data-listing-file-modified-sort="1682184108230" data-listing-reading-time-sort="1.535">
+<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1089864000000" data-listing-file-modified-sort="1682184108230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html"> <img src="./img/albums/hops/liters.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html"> <p class="card-img-top"><img src="img\albums\hops\liters.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="./posts/2004-08-15_Bavarian Beer Dreams.html">
@@ -616,9 +625,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -683,6 +706,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -726,6 +835,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">© 2023 by Art Steinmetz. Yes, I made this website all by myself using <a href="https://posit.co/">RStudio</a> and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

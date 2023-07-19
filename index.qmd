@@ -55,8 +55,8 @@ I am passionate about advancing financial and mathematical literacy, which are e
 ::: column-margin
 ![](img/rtsws.png){width="210"}
 :::
-I serve on the board of ["Rock the Street, Wall Street"](https://rockthestreetwallstreet.com/) which brings financial literacy programs into high school classrooms, mostly in under-resourced communities, to encourage girls to become interested in finance. We need more diversity in finance.
 
+I serve on the board of ["Rock the Street, Wall Street"](https://rockthestreetwallstreet.com/) which brings financial literacy programs into high school classrooms, mostly in under-resourced communities, to encourage girls to become interested in finance. We need more diversity in finance.
 
 I am a trustee of my Alma Mater, Denison University. Quite coincidentally, my interest in data science has grown along with Denison's. The college already had strong computer science and applied mathematics programs. A few years ago they launched a Data Analytics major and it has been one of fastest growing disciplines in the school's history. Data science skills in a liberal arts context give kids a powerful tool set that set them up well for career success. [Check it out](https://denison.edu/academics/data-analytics)!
 
@@ -84,7 +84,7 @@ I hold an M.B.A. in finance from Columbia Business School and a B.A. in Russian 
 
 # Media
 
-Art is one of America's least quoted pundits on financial markets. He is a frequent guest speaker at the local middle school career day and hopes to be invited to speak on matters of import by the local Kiwanis, Rotary or Odd Fellows chapter soon. Judging the by accuracy of his prognostications below, that isn't likely.  None of this ancient history is relevant today but it makes an interesting time capsule for my kids.
+Art is one of America's least quoted pundits on financial markets. He is a frequent guest speaker at the local middle school career day and hopes to be invited to speak on matters of import by the local Kiwanis, Rotary or Odd Fellows chapter soon. Judging the by accuracy of his prognostications below, that isn't likely. None of this ancient history is relevant today but it makes an interesting time capsule for my kids.
 
 ## National Museum of Mathematics Gala: Numeracy Matters
 
