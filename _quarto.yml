@@ -12,8 +12,8 @@ website:
         text: Home
       - href: https://outsiderdata.blog
         text: Data Science Blog
-      - href: blog.qmd
-        text: Old Personal Blog
+#      - href: blog.qmd
+#        text: Old Personal Blog
     right:
       - icon: linkedin
         href: "https://www.linkedin.com/in/asteinmetz/"
