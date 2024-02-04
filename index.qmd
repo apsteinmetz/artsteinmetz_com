@@ -34,7 +34,7 @@ Currently, I am a private investor located in New York City and an angel investo
 -   [Stronghold](stronghold.co) Payment and financial infrastructure for all.
 -   [Launchpoint](https://launchpointeps.com/) Advanced air mobility.
 
-Additionally, I serve on the board of ScotiaBank (U.S.) and do consulting for an enterprise data science firm, Posit PBC. I occasionally publish recreational data science projects at [outsiderdata.blog](https://outsiderdata.blog). I am a member of the Economic Club of New York.
+Additionally, I serve on the board of the Blackrock fixed income funds and do consulting for an enterprise data science firm, Posit PBC. I occasionally publish recreational data science projects at [outsiderdata.blog](https://outsiderdata.blog). I am a member of the Economic Club of New York.
 
 I only consider investment introductions from my established network. Unsolicited inquiries will be politely ignored.
 
@@ -76,7 +76,7 @@ Finally, I support [WFMU](https://wfmu.org/). Freeform, listener-supported, radi
 
 </iframe>
 
-I am grateful to have received a couple honoraria. In 2015, I was named "Man of the Year" by The [YWCA of New York City](https://ywcanyc.org/) and, in 2017, was honored to receive the "Corporate Trailblazer" award by [Black Women of Influence](https://blackwomenofinfluence.com/) for my efforts in promoting STEM education among girls and minorities. I should note I consider myself fairly conservative. I prefer market-oriented solutions to social problems, not government diktats. That said, structural racism is real and only by recognizing it can we work to eliminate it.
+I am grateful to have received a couple honoraria. In 2015, I was named "Man of the Year" by The [YWCA of New York City](https://ywcanyc.org/) and, in 2017, was honored to receive the "Corporate Trailblazer" award by [Black Women of Influence](https://blackwomenofinfluence.com/) for my efforts in promoting STEM education among girls and minorities.
 
 # Education
 
@@ -114,6 +114,8 @@ Art is one of America's least quoted pundits on financial markets. He is a frequ
 
 ## Art Gets Grilled About Puerto Rico
 
+This is kind of cool. I am direct and not evasive about the questions, even though it's an ambush.
+
 <iframe width="560" height="315" src="https://www.bloomberg.com/media-manifest/embed/iframe?id=35a5b831-fdee-4f1b-b8da-200429fbd1d6" allowscriptaccess="never" frameborder="0">
 
 </iframe>
@@ -121,6 +123,8 @@ Art is one of America's least quoted pundits on financial markets. He is a frequ
 <strong>11/10/2016</strong>
 
 ## New York Times Dealbook Conference
+
+I'm embarrassed about this one, but the Times posted it so I can't delete it. I thought I would look all future-y by using an iPad but it just comes off as an ill-prepared hollow sponsor spot, which it is.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r9q5BIXpNUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
