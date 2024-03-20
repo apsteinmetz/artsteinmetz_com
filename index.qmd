@@ -29,9 +29,9 @@ Hello and Welcome!
 
 Currently, I am a private investor located in New York City and an angel investor in several startups including:
 
--   [Tifin](Tifin.com) AI for wealth management.
--   [Market Reader](marketreader.com) Understand markets in real time.
--   [Stronghold](stronghold.co) Payment and financial infrastructure for all.
+-   [Tifin](https://tifin.com/) AI for wealth management.
+-   [Market Reader](https://marketreader.com) Understand markets in real time.
+-   [Stronghold](https://stronghold.co) Payment and financial infrastructure for all.
 -   [Launchpoint](https://launchpointeps.com/) Advanced air mobility.
 
 Additionally, I serve on the board of the Blackrock fixed income funds and do consulting for an enterprise data science firm, Posit PBC. I occasionally publish recreational data science projects at [outsiderdata.blog](https://outsiderdata.blog). I am a member of the Economic Club of New York.
