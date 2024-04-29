@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.383">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -62,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -85,7 +86,7 @@ gtag('config', 'G-9FBMX3C79E', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
@@ -185,7 +186,11 @@ gtag('config', 'G-9FBMX3C79E', { 'anonymize_ip': true});
 <p>Anyway, Street View makes the most sense in dense urban areas so I was shocked to see our house in semi-rural NJ show up. Why would Google use resources to cover our area?&nbsp; Well, they probably didn’t plan to.&nbsp; This map shows the Street View coverage in blue. It mostly makes sense. The covered areas show methodical mapping of every street as you get close to NYC. Then there was the day the driver got lost. <img src="..\img/2008/11/street-view-weirdness.jpg" class="img-fluid" style="width:100.0%" alt="Street View Weirdness"></p>
 <p>Yeah, the guy with loads of GPS technology on board goes off the map into unexplored territory. Check out the ramble around Gladstone. He doesn’t go down the side streets in any regular way but he does go on some dirt roads! Quite a joy ride. He briefly goes on the highway again but gets wanderlust a couple exits later. So that’s how our house winds up on Street View. I won’t make it easy for the kidnappers by posting the link here but you know where to find it if you want.</p>
 <p>There has been lots of commentary about the social ramifications of this technology. When you deploy dozens of vehicles randomly taking millions of pictures some interesting stuff is bound to show up.</p>
-<p><a href="https://streetviewfun.com"><img src="..\img/girl-just-wanna-have-fun-550x337.jpg" class="img-fluid quarto-figure-center" width="381"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://streetviewfun.com"><img src="..\img/girl-just-wanna-have-fun-550x337.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="381"></a></p>
+</figure>
+</div>
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rseNZTByiVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 </iframe>
@@ -323,38 +328,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -363,8 +358,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {

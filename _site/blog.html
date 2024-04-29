@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.383">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -62,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -109,14 +110,41 @@ gtag('config', 'G-9FBMX3C79E', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
@@ -210,25 +238,23 @@ gtag('config', 'G-9FBMX3C79E', { 'anonymize_ip': true});
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-listing-date-sort="1289278800000" data-listing-file-modified-sort="1682184108235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
 <div class="thumbnail">
-<p><a href="./posts/2010-09-06_Oktoberfest_2010.html"></a></p><a href="./posts/2010-09-06_Oktoberfest_2010.html">
+<p><a href="./posts/2010-09-06_Oktoberfest_2010.html" class="no-external"></a></p><a href="./posts/2010-09-06_Oktoberfest_2010.html" class="no-external">
 <p class="card-img-top"><img src="img\2010\eighties.JPG"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2010-09-06_Oktoberfest_2010.html"></a></p>
+</a><p><a href="./posts/2010-09-06_Oktoberfest_2010.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2010-09-06_Oktoberfest_2010.html"></a></p><a href="./posts/2010-09-06_Oktoberfest_2010.html">
 <h3 class="no-anchor listing-title">
-Oktoberfest 2010 - Eighties Throwback!
+<a href="./posts/2010-09-06_Oktoberfest_2010.html" class="no-external">Oktoberfest 2010 - Eighties Throwback!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2010-09-06_Oktoberfest_2010.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-The fashion of every decade looks ridiculous in retrospect but you can certainly say eighties fashion was a damn sight more colorful than Grunge. And music? Who goes to a…
+<a href="./posts/2010-09-06_Oktoberfest_2010.html" class="no-external">The fashion of every decade looks ridiculous in retrospect but you can certainly say eighties fashion was a damn sight more colorful than Grunge. And music? Who goes to a…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2010-09-06_Oktoberfest_2010.html">
+<a href="./posts/2010-09-06_Oktoberfest_2010.html" class="no-external">
 <div class="listing-date">
 Nov 9, 2010
 </div>
@@ -240,25 +266,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="1" data-listing-date-sort="1252468800000" data-listing-file-modified-sort="1682184108235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
 <div class="thumbnail">
-<p><a href="./posts/2009-10-06_Oktoberfest_2009.html"></a></p><a href="./posts/2009-10-06_Oktoberfest_2009.html">
+<p><a href="./posts/2009-10-06_Oktoberfest_2009.html" class="no-external"></a></p><a href="./posts/2009-10-06_Oktoberfest_2009.html" class="no-external">
 <p class="card-img-top"><img src="img\2009\bollywood.jpeg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2009-10-06_Oktoberfest_2009.html"></a></p>
+</a><p><a href="./posts/2009-10-06_Oktoberfest_2009.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2009-10-06_Oktoberfest_2009.html"></a></p><a href="./posts/2009-10-06_Oktoberfest_2009.html">
 <h3 class="no-anchor listing-title">
-Oktoberfest 2009 - Bollywood!
+<a href="./posts/2009-10-06_Oktoberfest_2009.html" class="no-external">Oktoberfest 2009 - Bollywood!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2009-10-06_Oktoberfest_2009.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-It’s that time of year again. Oktoberfest! We decided to celebrate it when the Germans do - in September. Go figure.
+<a href="./posts/2009-10-06_Oktoberfest_2009.html" class="no-external">It’s that time of year again. Oktoberfest! We decided to celebrate it when the Germans do - in September. Go figure.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2009-10-06_Oktoberfest_2009.html">
+<a href="./posts/2009-10-06_Oktoberfest_2009.html" class="no-external">
 <div class="listing-date">
 Sep 9, 2009
 </div>
@@ -270,25 +294,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="2" data-listing-date-sort="1231218000000" data-listing-file-modified-sort="1682184108234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="366">
 <div class="thumbnail">
-<p><a href="./posts/2009-01-06_Merry_Christmas.html"></a></p><a href="./posts/2009-01-06_Merry_Christmas.html">
+<p><a href="./posts/2009-01-06_Merry_Christmas.html" class="no-external"></a></p><a href="./posts/2009-01-06_Merry_Christmas.html" class="no-external">
 <p class="card-img-top"><img src="img\2008\12\xmas-card-jpeg-1024x768.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2009-01-06_Merry_Christmas.html"></a></p>
+</a><p><a href="./posts/2009-01-06_Merry_Christmas.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2009-01-06_Merry_Christmas.html"></a></p><a href="./posts/2009-01-06_Merry_Christmas.html">
 <h3 class="no-anchor listing-title">
-Merry Christmas!
+<a href="./posts/2009-01-06_Merry_Christmas.html" class="no-external">Merry Christmas!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2009-01-06_Merry_Christmas.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-The Night Before the Steinmetz 2008 Christmas
+<a href="./posts/2009-01-06_Merry_Christmas.html" class="no-external">The Night Before the Steinmetz 2008 Christmas</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2009-01-06_Merry_Christmas.html">
+<a href="./posts/2009-01-06_Merry_Christmas.html" class="no-external">
 <div class="listing-date">
 Jan 6, 2009
 </div>
@@ -300,25 +322,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="3" data-listing-date-sort="1231131600000" data-listing-file-modified-sort="1682184108234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1039">
 <div class="thumbnail">
-<p><a href="./posts/2009-01-05_Holiday_Trigonometry.html"></a></p><a href="./posts/2009-01-05_Holiday_Trigonometry.html">
+<p><a href="./posts/2009-01-05_Holiday_Trigonometry.html" class="no-external"></a></p><a href="./posts/2009-01-05_Holiday_Trigonometry.html" class="no-external">
 <p class="card-img-top"><img src="img\2009\01\CIMG6736.JPG"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2009-01-05_Holiday_Trigonometry.html"></a></p>
+</a><p><a href="./posts/2009-01-05_Holiday_Trigonometry.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2009-01-05_Holiday_Trigonometry.html"></a></p><a href="./posts/2009-01-05_Holiday_Trigonometry.html">
 <h3 class="no-anchor listing-title">
-Holiday Trigonometry
+<a href="./posts/2009-01-05_Holiday_Trigonometry.html" class="no-external">Holiday Trigonometry</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2009-01-05_Holiday_Trigonometry.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-The older kids have been terrific in helping to put up the various Christmas decorations this year.&nbsp; This is our first Christmas in the new house so I felt that we had to…
+<a href="./posts/2009-01-05_Holiday_Trigonometry.html" class="no-external">The older kids have been terrific in helping to put up the various Christmas decorations this year.&nbsp; This is our first Christmas in the new house so I felt that we had to…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2009-01-05_Holiday_Trigonometry.html">
+<a href="./posts/2009-01-05_Holiday_Trigonometry.html" class="no-external">
 <div class="listing-date">
 Jan 5, 2009
 </div>
@@ -330,25 +350,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="4" data-listing-date-sort="1230958800000" data-listing-file-modified-sort="1682184108233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <div class="thumbnail">
-<p><a href="./posts/2009-01-03_He_s_Up.html"></a></p><a href="./posts/2009-01-03_He_s_Up.html">
+<p><a href="./posts/2009-01-03_He_s_Up.html" class="no-external"></a></p><a href="./posts/2009-01-03_He_s_Up.html" class="no-external">
 <p class="card-img-top"><img src="img\2009\01\CIMG6404.JPG"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2009-01-03_He_s_Up.html"></a></p>
+</a><p><a href="./posts/2009-01-03_He_s_Up.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2009-01-03_He_s_Up.html"></a></p><a href="./posts/2009-01-03_He_s_Up.html">
 <h3 class="no-anchor listing-title">
-He’s Up!
+<a href="./posts/2009-01-03_He_s_Up.html" class="no-external">He’s Up!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2009-01-03_He_s_Up.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-Max Walks!
+<a href="./posts/2009-01-03_He_s_Up.html" class="no-external">Max Walks!</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2009-01-03_He_s_Up.html">
+<a href="./posts/2009-01-03_He_s_Up.html" class="no-external">
 <div class="listing-date">
 Jan 3, 2009
 </div>
@@ -360,25 +378,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="5" data-listing-date-sort="1229144400000" data-listing-file-modified-sort="1682184108233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="778">
 <div class="thumbnail">
-<p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html"></a></p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html">
+<p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html" class="no-external"></a></p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html" class="no-external">
 <p class="card-img-top"><img src="img\2008\12\chocolate_pot.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html"></a></p>
+</a><p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html"></a></p><a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html">
 <h3 class="no-anchor listing-title">
-Hot Chocolate Face-Off
+<a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html" class="no-external">Hot Chocolate Face-Off</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-You may be going through life drinking your basic Swiss Miss instant hot chocolate and being perfectly happy. Still, if you are like most people you occasionally wonder if…
+<a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html" class="no-external">You may be going through life drinking your basic Swiss Miss instant hot chocolate and being perfectly happy. Still, if you are like most people you occasionally wonder if…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html">
+<a href="./posts/2008-12-13_Hot_Chocolate_Face_Off.html" class="no-external">
 <div class="listing-date">
 Dec 13, 2008
 </div>
@@ -390,25 +406,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="6" data-listing-date-sort="1226984400000" data-listing-file-modified-sort="1682184108233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
 <div class="thumbnail">
-<p><a href="./posts/2008-11-18_Drunkard_s_Drive.html"></a></p><a href="./posts/2008-11-18_Drunkard_s_Drive.html">
+<p><a href="./posts/2008-11-18_Drunkard_s_Drive.html" class="no-external"></a></p><a href="./posts/2008-11-18_Drunkard_s_Drive.html" class="no-external">
 <p class="card-img-top"><img src="img\2008\11\street-view-weirdness.jpg" alt="Street View Weirdness"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2008-11-18_Drunkard_s_Drive.html"></a></p>
+</a><p><a href="./posts/2008-11-18_Drunkard_s_Drive.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2008-11-18_Drunkard_s_Drive.html"></a></p><a href="./posts/2008-11-18_Drunkard_s_Drive.html">
 <h3 class="no-anchor listing-title">
-Drunkard’s Drive
+<a href="./posts/2008-11-18_Drunkard_s_Drive.html" class="no-external">Drunkard’s Drive</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2008-11-18_Drunkard_s_Drive.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-“Drunkard’s walk” is the metaphor used in Statistics to describe a random path or it could refer to a drunk guy walking around. It could also refer to the Google Street View…
+<a href="./posts/2008-11-18_Drunkard_s_Drive.html" class="no-external">“Drunkard’s walk” is the metaphor used in Statistics to describe a random path or it could refer to a drunk guy walking around. It could also refer to the Google Street View…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2008-11-18_Drunkard_s_Drive.html">
+<a href="./posts/2008-11-18_Drunkard_s_Drive.html" class="no-external">
 <div class="listing-date">
 Nov 18, 2008
 </div>
@@ -420,25 +434,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="7" data-listing-date-sort="1226898000000" data-listing-file-modified-sort="1682184108232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="163">
 <div class="thumbnail">
-<p><a href="./posts/2008-11-17_Twice_Flat_Broke.html"></a></p><a href="./posts/2008-11-17_Twice_Flat_Broke.html">
+<p><a href="./posts/2008-11-17_Twice_Flat_Broke.html" class="no-external"></a></p><a href="./posts/2008-11-17_Twice_Flat_Broke.html" class="no-external">
 <p class="card-img-top"><img src="img\2008\11\cheer-up.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2008-11-17_Twice_Flat_Broke.html"></a></p>
+</a><p><a href="./posts/2008-11-17_Twice_Flat_Broke.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2008-11-17_Twice_Flat_Broke.html"></a></p><a href="./posts/2008-11-17_Twice_Flat_Broke.html">
 <h3 class="no-anchor listing-title">
-Twice Flat Broke
+<a href="./posts/2008-11-17_Twice_Flat_Broke.html" class="no-external">Twice Flat Broke</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2008-11-17_Twice_Flat_Broke.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-I came across a book at a flea market last year called “Cheer Up!,” published in 1933. It was written by Roger Babson, a noted investor of the day who predicted the 1929…<span class="mw-redirect"></span>
+<a href="./posts/2008-11-17_Twice_Flat_Broke.html" class="no-external">I came across a book at a flea market last year called “Cheer Up!,” published in 1933. It was written by Roger Babson, a noted investor of the day who predicted the 1929…<span class="mw-redirect"></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2008-11-17_Twice_Flat_Broke.html">
+<a href="./posts/2008-11-17_Twice_Flat_Broke.html" class="no-external">
 <div class="listing-date">
 Nov 17, 2008
 </div>
@@ -450,25 +462,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="8" data-listing-date-sort="1226379600000" data-listing-file-modified-sort="1682184108232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1278">
 <div class="thumbnail">
-<p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html"></a></p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html">
+<p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html" class="no-external"></a></p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html" class="no-external">
 <p class="card-img-top"><img src="img\2008\11\white-slavery-2.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html"></a></p>
+</a><p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html"></a></p><a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html">
 <h3 class="no-anchor listing-title">
-White Slavery, Buggery And Pederasty -Or- What I Saw At The Flea Market
+<a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html" class="no-external">White Slavery, Buggery And Pederasty -Or- What I Saw At The Flea Market</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-I love books and paper and print. I love stationary, notebooks and fancy pens. Ironically, my handwriting is atrocious and I hate the physical act of trying to form letters…
+<a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html" class="no-external">I love books and paper and print. I love stationary, notebooks and fancy pens. Ironically, my handwriting is atrocious and I hate the physical act of trying to form letters…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html">
+<a href="./posts/2008-11-11_White_Slavery_Buggery_And_Pederasty_Or_What_I_Saw_At_The_Flea_Market.html" class="no-external">
 <div class="listing-date">
 Nov 11, 2008
 </div>
@@ -480,25 +490,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="9" data-listing-date-sort="1225425600000" data-listing-file-modified-sort="1682184108231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="398">
 <div class="thumbnail">
-<p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html"></a></p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html">
+<p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html" class="no-external"></a></p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html" class="no-external">
 <p class="card-img-top"><img src="img\2008\10\spx-oct-08.bmp"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html"></a></p>
+</a><p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html"></a></p><a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html">
 <h3 class="no-anchor listing-title">
-What You Think Matters In Politics, Doesn’t
+<a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html" class="no-external">What You Think Matters In Politics, Doesn’t</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-Many of my friends think the policy positions of the presidential candidates matter to voters. They don’t. Obama will win and McCain will lose. That result was baked in the…
+<a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html" class="no-external">Many of my friends think the policy positions of the presidential candidates matter to voters. They don’t. Obama will win and McCain will lose. That result was baked in the…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html">
+<a href="./posts/2008-10-31_What_You_Think_Matters_In_Politics_Doesn_t.html" class="no-external">
 <div class="listing-date">
 Oct 31, 2008
 </div>
@@ -510,25 +518,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="10" data-listing-date-sort="1224734400000" data-listing-file-modified-sort="1682184108231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
 <div class="thumbnail">
-<p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html"></a></p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html">
+<p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html" class="no-external"></a></p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html" class="no-external">
 <p class="card-img-top"><img src="img\2008\10\chinese-wisdom-2.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html"></a></p>
+</a><p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html"></a></p><a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html">
 <h3 class="no-anchor listing-title">
-Ancient Chinese Secret, Huh?
+<a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html" class="no-external">Ancient Chinese Secret, Huh?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-As long as I can remember noticing, 30 years ago, say, Chinese take-out places have used the same chopstick sleeve with the same horrible English greeting.
+<a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html" class="no-external">As long as I can remember noticing, 30 years ago, say, Chinese take-out places have used the same chopstick sleeve with the same horrible English greeting.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html">
+<a href="./posts/2008-10-23__Ancient_Chinese_Secret_Huh.html" class="no-external">
 <div class="listing-date">
 Oct 23, 2008
 </div>
@@ -540,25 +546,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="11" data-listing-date-sort="1224561600000" data-listing-file-modified-sort="1682184108231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="128">
 <div class="thumbnail">
-<p><a href="./posts/2008-10-21_Oktoberfest_2008.html"></a></p><a href="./posts/2008-10-21_Oktoberfest_2008.html">
+<p><a href="./posts/2008-10-21_Oktoberfest_2008.html" class="no-external"></a></p><a href="./posts/2008-10-21_Oktoberfest_2008.html" class="no-external">
 <p class="card-img-top"><img src="img\2008\10\carrie-dirndle-200x300.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2008-10-21_Oktoberfest_2008.html"></a></p>
+</a><p><a href="./posts/2008-10-21_Oktoberfest_2008.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2008-10-21_Oktoberfest_2008.html"></a></p><a href="./posts/2008-10-21_Oktoberfest_2008.html">
 <h3 class="no-anchor listing-title">
-Oktoberfest 2008 - Art Turns 50!
+<a href="./posts/2008-10-21_Oktoberfest_2008.html" class="no-external">Oktoberfest 2008 - Art Turns 50!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2008-10-21_Oktoberfest_2008.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-And, yes, it was my 50th Birthday party, but let’s not dwell on that. Yes, I did get drunk in front of my boss but let’s not dwell on that either. We found a caterer who…
+<a href="./posts/2008-10-21_Oktoberfest_2008.html" class="no-external">And, yes, it was my 50th Birthday party, but let’s not dwell on that. Yes, I did get drunk in front of my boss but let’s not dwell on that either. We found a caterer who…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2008-10-21_Oktoberfest_2008.html">
+<a href="./posts/2008-10-21_Oktoberfest_2008.html" class="no-external">
 <div class="listing-date">
 Oct 21, 2008
 </div>
@@ -570,25 +574,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="12" data-listing-date-sort="1223956800000" data-listing-file-modified-sort="1682184108230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="691">
 <div class="thumbnail">
-<p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html"></a></p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html">
+<p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html" class="no-external"></a></p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html"></a></p>
+</a><p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html"></a></p><a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html">
 <h3 class="no-anchor listing-title">
-Lies, Damn Lies And Charts
+<a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html" class="no-external">Lies, Damn Lies And Charts</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<strong>Even Nobel Prize Winners Can Be Graphically Impaired</strong>
+<a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html" class="no-external"><strong>Even Nobel Prize Winners Can Be Graphically Impaired</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html">
+<a href="./posts/2008-10-14_Lies_Damn_Lies_And_Charts.html" class="no-external">
 <div class="listing-date">
 Oct 14, 2008
 </div>
@@ -600,25 +602,23 @@ Art Steinmetz
 </div>
 <div class="quarto-post image-right" data-index="13" data-listing-date-sort="1089864000000" data-listing-file-modified-sort="1682184108230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="307">
 <div class="thumbnail">
-<p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html"></a></p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html">
+<p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html" class="no-external"></a></p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html" class="no-external">
 <p class="card-img-top"><img src="img\albums\hops\liters.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html"></a></p>
+</a><p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html"></a></p><a href="./posts/2004-08-15_Bavarian Beer Dreams.html">
 <h3 class="no-anchor listing-title">
-Bavarian Beer Dreams
+<a href="./posts/2004-08-15_Bavarian Beer Dreams.html" class="no-external">Bavarian Beer Dreams</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2004-08-15_Bavarian Beer Dreams.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-In August of 2004 we took a family vacation to my Mother’s home turf of Bavaria. It was a chance for my kids to connect with their heritage and my Mom to reconnect. For me…
+<a href="./posts/2004-08-15_Bavarian Beer Dreams.html" class="no-external">In August of 2004 we took a family vacation to my Mother’s home turf of Bavaria. It was a chance for my kids to connect with their heritage and my Mom to reconnect. For me…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2004-08-15_Bavarian Beer Dreams.html">
+<a href="./posts/2004-08-15_Bavarian Beer Dreams.html" class="no-external">
 <div class="listing-date">
 Jul 15, 2004
 </div>
@@ -761,38 +761,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -801,8 +791,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {

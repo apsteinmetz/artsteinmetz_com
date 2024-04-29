@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.383">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -62,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -80,6 +81,33 @@ gtag('config', 'G-9FBMX3C79E', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../styles.css">
 </head>
 
@@ -87,7 +115,7 @@ gtag('config', 'G-9FBMX3C79E', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
@@ -184,28 +212,10 @@ gtag('config', 'G-9FBMX3C79E', { 'anonymize_ip': true});
 
 
 <p>The older kids have been terrific in helping to put up the various Christmas decorations this year.&nbsp; This is our first Christmas in the new house so I felt that we had to decorate properly, even though things have been a bit rough work-wise and health-wise.&nbsp; We’ve all been a bit preoccupied with everything but holiday planning.</p>
-<div id="fig-539a35d47e664c97a50115a146a7f1bd-1" class="quarto-figure quarto-figure-center anchored" width="480">
-<figure class="quarto-float quarto-float-fig figure">
-<div>
-<img src="..\img/2009/01/CIMG6736.JPG" id="fig-539a35d47e664c97a50115a146a7f1bd-1" class="img-fluid figure-img" width="480">
-</div>
-</figure>
-</div>
-<div id="fig-539a35d47e664c97a50115a146a7f1bd-2" class="quarto-figure quarto-figure-center anchored" width="480">
-<figure class="quarto-float quarto-float-fig figure">
-<div>
-<img src="..\img/2009/01/276.JPG" id="fig-539a35d47e664c97a50115a146a7f1bd-2" class="img-fluid figure-img" width="480">
-</div>
-</figure>
-</div>
+<p><img src="..\img/2009/01/CIMG6736.JPG" class="img-fluid" width="480"></p>
+<p><img src="..\img/2009/01/276.JPG" class="img-fluid" width="480"></p>
 <p>I didn’t give much thought to the decorations though a little forethought would have helped.&nbsp; I wanted to hang a big wreath on the chimney from before the house was built and I should have asked the builder to stick in a hook when he was building the Chimney.&nbsp;&nbsp; Instead I was at the top of a 20’ ladder w ith a cordless drill putting a hole in the mortar.&nbsp; There is a basic physics problem here.&nbsp; The masonery bit needed a good bit of pushing to go in but that meant pushing me away from the ladder.&nbsp; Equal and opposite reactions, you know.&nbsp; Since I was 20 feet off the ground I didn’t like being pushed away from ladder, to be honest.&nbsp; Carrie was at the bottom of the ladder the whole time ready to call 911.&nbsp; I used epoxy putty to anchor a hook.&nbsp; You know the stuff&nbsp; the loud, bearded guy on TV is offering for 3 easy payments of $9.95 but you can just pick it up at Ace for $4.50.&nbsp;&nbsp; The house is pretty far from the street so we got a pretty big wreath for visibility.&nbsp; Hauling it up the ladder without falling off was no easy thing, complicated by small children who wanted to climb under the ladder.&nbsp; So far the hook is holding.</p>
-<div id="fig-539a35d47e664c97a50115a146a7f1bd-3" class="quarto-figure quarto-figure-center anchored" width="480">
-<figure class="quarto-float quarto-float-fig figure">
-<div>
-<img src="..\img/2009/01/CIMG6502_edited-1.jpg" id="fig-539a35d47e664c97a50115a146a7f1bd-3" class="img-fluid figure-img" width="480">
-</div>
-</figure>
-</div>
+<p><img src="..\img/2009/01/CIMG6502_edited-1.jpg" class="img-fluid" width="480"></p>
 <p>The tree was also a big project.&nbsp; We live on a “farm” that had two crops to maintain the advantaged tax position that farms get, hay and Christmas trees.&nbsp; The hay part just means we only cut the grass once a year.&nbsp; The Christmas tree farm wasn’t maintained and the trees are way to big for anything smaller than a cathedral.&nbsp; We lost the farm assessment when we built the new house but I still won’t cut the grass.&nbsp; The trees work well enough if we just use the tops.&nbsp; Now that we have a 2-story foyer we can accommodate a fair fraction of those big trees.&nbsp; Getting it through the door was another matter.&nbsp;&nbsp; Putting it in a stand meant for an 8-foot tree was another.&nbsp; We lashed the tree to the upstairs railing and alleviated Carrie’s fears that one of the babies would pull the thing down.&nbsp; Of course, now you could do a high wire act across the support lines.&nbsp; We couldn’t have done it without the teenager’s help.&nbsp; I bragged about the “18-foot monster” on Facebook.</p>
 <p>Well, Christmas came and went.&nbsp; Times being what they are, I had to hock my cooking pots to get Carrie a new date book cover.&nbsp; Carrie hocked her date book&nbsp; to get me a new pot rack.&nbsp; Surprise!&nbsp; 2.5 year-old Nathan did have the presence of mind to say what he actually wanted when sitting on the Macy’s Santa’s lap: candy.</p>
 <p>Now we are faced with the question of when to take down the decorations.&nbsp; My office building yanked out the festive stuff on Jan 2.&nbsp; Of course, they put it in the week before Thanksgiving.&nbsp; We didn’t put our tree up until the week before Santa came.&nbsp; It was such an effort I’d like to enjoy it for a while.&nbsp; So when is the last decent moment to take everything down?&nbsp; MLK-day?&nbsp; My office hasn’t starting putting up the civil rights decorations yet so I figure I’m okay, still.</p>
@@ -214,38 +224,14 @@ gtag('config', 'G-9FBMX3C79E', { 'anonymize_ip': true});
 height = base * tan(\theta)
 \]</span></p>
 <p>Sure you do.&nbsp; We needed a tool to measure the angle so I got them to build a “sight protractor.”&nbsp;&nbsp; I don’t have a protractor handy so I started talking about making one by bisecting angles and all kinds of complicated tricks but Jake said “why don’t we just print an image of one off the internet.”&nbsp;&nbsp;&nbsp; Grrr.&nbsp; Kids today.&nbsp; Back in my day we built “mnemonic memory devices out of stone knives and bear skins” <a href="https://youtu.be/5u-gLR3etLY">(Spock said that once)</a>.</p>
-<div id="fig-539a35d47e664c97a50115a146a7f1bd-4" class="quarto-figure quarto-figure-center anchored" width="480">
-<figure class="quarto-float quarto-float-fig figure">
-<div>
-<img src="..\img/2009/01/CIMG6724.JPG" id="fig-539a35d47e664c97a50115a146a7f1bd-4" class="img-fluid figure-img" width="480">
-</div>
-</figure>
-</div>
+<p><img src="..\img/2009/01/CIMG6724.JPG" class="img-fluid" width="480"></p>
 <p>So we made the gizmo with the protractor, a straw, a penny and some string.&nbsp; Then we measured an arbitrary distance from the tree and put some masking tape on the floor to mark the spot.</p>
-<div id="fig-539a35d47e664c97a50115a146a7f1bd-5" class="quarto-figure quarto-figure-center anchored" width="480">
-<figure class="quarto-float quarto-float-fig figure">
-<div>
-<img src="..\img/2009/01/CIMG6739.JPG" id="fig-539a35d47e664c97a50115a146a7f1bd-5" class="img-fluid figure-img" width="480">
-</div>
-</figure>
-</div>
+<p><img src="..\img/2009/01/CIMG6739.JPG" class="img-fluid" width="480"></p>
 <p>Then we shot the tree top.&nbsp;&nbsp; A bunch of us did it to get different observations and allow for experimental error.</p>
 <p><img src="..\img/2009/01/CIMG6728.JPG" class="img-fluid" alt="CIMG6728" data-border="0" data-align="bottom">Nathan helped, of course.&nbsp; Preventing him from poking himself in the eye with the protractor straw was the big challenge here.</p>
-<div id="fig-539a35d47e664c97a50115a146a7f1bd-6" class="quarto-figure quarto-figure-center anchored" width="480">
-<figure class="quarto-float quarto-float-fig figure">
-<div>
-<img src="..\img/2009/01/CIMG6733.JPG" id="fig-539a35d47e664c97a50115a146a7f1bd-6" class="img-fluid figure-img" width="480">
-</div>
-</figure>
-</div>
+<p><img src="..\img/2009/01/CIMG6733.JPG" class="img-fluid" width="480"></p>
 <p>Jake, always handy, had his scientific calculator in his backpack.&nbsp; When I was in 10th grade, 1975, Keith Davis kept his TI scientific calculator in a holster on his belt.&nbsp; THAT was not a good idea.&nbsp; The ladies didn’t have the proper respect for geeks back then.&nbsp; You didn’t catch me doing that.&nbsp; That was only because my Commodore calculator took 4 “C” batteries.&nbsp; I could barely lift it.&nbsp; Anyway, back to the present, the spread of estimates was wider than I expected, 36 cm, but we were using a penny dangling on&nbsp; a string, after all.&nbsp; By the way, since we are scientists we used the metric system.&nbsp; We averaged the results and got 4.52 meters.&nbsp;&nbsp; For you non-scientists that’s 14’10”.&nbsp; Remember, I bragged it was 18 feet.&nbsp; I guess I exaggerated during the afterglow of our magnificent achievement in setting up the tree.</p>
-<div id="fig-539a35d47e664c97a50115a146a7f1bd-7" class="quarto-figure quarto-figure-center anchored" width="480">
-<figure class="quarto-float quarto-float-fig figure">
-<div>
-<img src="..\img/2009/01/notebook.jpg" id="fig-539a35d47e664c97a50115a146a7f1bd-7" class="img-fluid figure-img" width="480">
-</div>
-</figure>
-</div>
+<p><img src="..\img/2009/01/notebook.jpg" class="img-fluid" width="480"></p>
 
 
 
@@ -378,38 +364,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -418,8 +394,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
