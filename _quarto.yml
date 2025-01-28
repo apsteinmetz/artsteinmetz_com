@@ -17,6 +17,8 @@ website:
     right:
       - icon: linkedin
         href: "https://www.linkedin.com/in/asteinmetz/"
+      - text: "{{< fa brands bluesky >}}"
+        href: "https://bsky.app/profile/apsteinmetz.bsky.social"
       - icon: twitter
         href: "https://twitter.com/@apsteinmetz"
       - icon: mastodon

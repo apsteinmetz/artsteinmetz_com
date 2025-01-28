@@ -9,6 +9,8 @@ about:
   image: "img/headshot.jpg"
   image-width: "250px"
   links:
+    - text: "Bluesky {{< fa brands bluesky >}}"
+      url: "https://bsky.app/profile/apsteinmetz.bsky.social"
     - text: LinkedIn
       icon: linkedin
       url: "https://www.linkedin.com/in/asteinmetz/"
@@ -24,7 +26,7 @@ about:
 Hello and Welcome!
 :::
 
-::: panel-tabset
+::::::: panel-tabset
 # Current Work
 
 Currently, I am a private investor located in New York City and an angel investor in several startups including:
@@ -46,7 +48,7 @@ I am the former Chairman, CEO and President of OppenheimerFunds. After joining t
 ![](img/oppenheimerfunds-logo.png){width="210"}
 :::
 
-I spent most of my career as a global macro fixed-income investor at OppenheimerFunds, creating several mutual funds that grew to over US\$20bn in assets. These included the multi-sector "Strategic Income Fund" and the "International Bond Fund." At various times I headed the Government, High-Yield and International Bond teams. I was nominated for Morningstar's Fixed Income Manager of the Year in 2007. As CIO and CEO, I led the effort to acquire several companies to expand into energy and "smart beta" spaces.
+I spent most of my career as a global macro fixed-income investor at OppenheimerFunds, creating several mutual funds that grew to over US\$20bn in assets. These included the multi-sector "Strategic Income Fund" and the "International Bond Fund." At various times I headed the Government, High-Yield and International Bond teams. I was nominated for Morningstar's Fixed Income Manager of the Year in 2007. As CIO and CEO, I led the effort to move into alternative investmetns including energy, private credit and "smart beta" ETFs.
 
 # Philanthropy
 
@@ -241,4 +243,4 @@ I'm embarrassed about this one, but the Times posted it so I can't delete it. I 
 [![](img/steinmetz_ale_label.jpg){fig-align="left" width="240"}](img/usa_today_1995-09-08.pdf)
 
 [How Good Bond Funds Sound: Zzzzzz](img/usa_today_1995-09-08.pdf)
-:::
+:::::::
